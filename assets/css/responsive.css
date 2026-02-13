@@ -1,0 +1,172 @@
+@media (max-width: 1024px) {
+    .home-text h1 {
+        font-size: 55px;
+    }
+
+    .accommodation-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 35vh);
+    }
+
+    .right-content {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .image-stack {
+        height: 400px;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 900px) {
+    header {
+        padding: 15px 5%;
+    }
+
+    .experiences {
+        grid-template-columns: 80px 1fr;
+        gap: 30px;
+    }
+
+    .left-text h1 {
+        font-size: 60px;
+    }
+
+    .accommodation {
+        height: auto;
+        padding: 100px 5%;
+    }
+
+    .accommodation-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .box1.balkony, .box2.forest, .box3.leak {
+        grid-column: 1 / 2;
+        grid-row: auto;
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-text h1 {
+        font-size: 45px;
+    }
+
+    .home-text p {
+        font-size: 18px;
+    }
+
+    .experiences {
+        grid-template-columns: 1fr;
+        padding: 80px 5%;
+    }
+
+    .left-text h1 {
+        writing-mode: horizontal-tb;
+        transform: rotate(0);
+        font-size: 40px;
+        margin-bottom: 30px;
+        text-align: center;
+        letter-spacing: 5px;
+    }
+
+    .right-texts p {
+        padding-left: 15px;
+        font-size: 16px;
+    }
+
+    .right-texts p b {
+        font-size: 20px;
+    }
+
+    .image-stack {
+        height: 350px;
+    }
+
+    .stack-img {
+        width: 200px;
+        height: 300px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-about p, .newsletter-input {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .home-container {
+        padding-left: 5%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home-text p {
+        max-width: 100%;
+    }
+
+    .contact {
+        grid-template-columns: 1fr;
+        padding: 60px 5%;
+    }
+
+    .contact-info h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-text h1 {
+        font-size: 36px;
+    }
+
+    .accommodation-container div[class^="box"] {
+        height: 300px;
+    }
+
+    .image-stack {
+        display: none;
+    }
+
+    .mobile-side-menu {
+        width: 100%;
+    }
+}
+
+@media (max-width: 430px) {
+    .home-text h1 {
+        font-size: 32px;
+    }
+
+    .home-cta-btn {
+        width: 100%;
+        justify-content: center;
+        padding: 15px 25px;
+    }
+
+    .box-text {
+        left: 15px;
+        bottom: 15px;
+        padding: 10px 20px;
+    }
+
+    .box-text a {
+        font-size: 14px;
+    }
+}
